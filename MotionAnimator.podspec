@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.public_header_files = "src/*.h"
   s.source_files = "src/*.{h,m,mm}", "src/private/*.{h,m,mm}"
 
-  s.dependency "MotionInterchange", :git => 'https://github.com/nativescript-community/motion-interchange-objc.git'
+  s.dependency "MotionInterchange"
 end
